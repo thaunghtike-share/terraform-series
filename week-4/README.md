@@ -1,53 +1,27 @@
 # Week 4 — Enterprise Infrastructure Design
 
-## Goal
+## Weekly Goal
 
-Design Terraform repositories like a platform engineering team.
+Learn enterprise Terraform and platform engineering workflow for:
 
----
-
-## Real Enterprise Lab
-
-### Lab Name
-
-**Enterprise Repository Design**
-
-### What Students Build
-
-- `environments/dev`
-- `environments/uat`
-- `environments/prod`
-- `layers`
-- `modules`
-
-### Lab Tasks
-
-- Design repo layout
-- Apply naming conventions
-- Apply tagging standards
-- Separate environments
-
-### Final Result
-
-Students will complete a real platform engineering style lab for **Enterprise Infrastructure Design**.
+- Production infrastructure
+- CI/CD automation
+- Secure authentication
+- Infrastructure standardization
+- Platform engineering mindset
 
 ---
 
 ## Weekly Schedule
 
-| Day | Topic | File |
-|---|---|---|
-| Day 1 | Environment Architecture | `day-1.md` |
-| Day 2 | Infrastructure Standards | `day-2.md` |
-| Day 3 | Platform Repository Design | `day-3.md` |
+| Day | Topic |
+|---|---|
+| Day 1 | Core concepts and architecture |
+| Day 2 | Real hands-on implementation |
+| Day 3 | Enterprise workflow and troubleshooting |
 
 ---
 
-## Expected Repository Work
+## Weekly Lab
 
-Students should commit their work after each day.
-
-```bash
-git add .
-git commit -m "week-4: complete lab work"
-```
+Students will continuously improve a real production-style Terraform platform repository during the course.

@@ -1,55 +1,27 @@
 # Week 12 — Final Enterprise Platform Project
 
-## Goal
+## Weekly Goal
 
-Build a complete production-style Terraform platform.
+Learn enterprise Terraform and platform engineering workflow for:
 
----
-
-## Real Enterprise Lab
-
-### Lab Name
-
-**Final Enterprise Platform**
-
-### What Students Build
-
-- `Complete platform repo`
-- `CI/CD`
-- `OIDC`
-- `Remote state`
-- `Docs`
-- `Terragrunt`
-- `Atmos`
-
-### Lab Tasks
-
-- Integrate all previous labs
-- Prepare final architecture
-- Run full deployment
-- Present final project
-
-### Final Result
-
-Students will complete a real platform engineering style lab for **Final Enterprise Platform Project**.
+- Production infrastructure
+- CI/CD automation
+- Secure authentication
+- Infrastructure standardization
+- Platform engineering mindset
 
 ---
 
 ## Weekly Schedule
 
-| Day | Topic | File |
-|---|---|---|
-| Day 1 | Final Project Planning | `day-1.md` |
-| Day 2 | Final Project Implementation | `day-2.md` |
-| Day 3 | Final Review & Presentation | `day-3.md` |
+| Day | Topic |
+|---|---|
+| Day 1 | Core concepts and architecture |
+| Day 2 | Real hands-on implementation |
+| Day 3 | Enterprise workflow and troubleshooting |
 
 ---
 
-## Expected Repository Work
+## Weekly Lab
 
-Students should commit their work after each day.
-
-```bash
-git add .
-git commit -m "week-12: complete lab work"
-```
+Students will continuously improve a real production-style Terraform platform repository during the course.

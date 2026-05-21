@@ -1,51 +1,27 @@
 # Week 10 — Terragrunt at Scale
 
-## Goal
+## Weekly Goal
 
-Reduce duplication and manage environments with Terragrunt.
+Learn enterprise Terraform and platform engineering workflow for:
 
----
-
-## Real Enterprise Lab
-
-### Lab Name
-
-**Terragrunt Platform Architecture**
-
-### What Students Build
-
-- `terragrunt/dev`
-- `terragrunt/uat`
-- `terragrunt/prod`
-
-### Lab Tasks
-
-- Create terragrunt.hcl
-- Use include blocks
-- Use shared config
-- Deploy multiple environments
-
-### Final Result
-
-Students will complete a real platform engineering style lab for **Terragrunt at Scale**.
+- Production infrastructure
+- CI/CD automation
+- Secure authentication
+- Infrastructure standardization
+- Platform engineering mindset
 
 ---
 
 ## Weekly Schedule
 
-| Day | Topic | File |
-|---|---|---|
-| Day 1 | Terragrunt Fundamentals | `day-1.md` |
-| Day 2 | Environment Management | `day-2.md` |
-| Day 3 | Terragrunt CI/CD | `day-3.md` |
+| Day | Topic |
+|---|---|
+| Day 1 | Core concepts and architecture |
+| Day 2 | Real hands-on implementation |
+| Day 3 | Enterprise workflow and troubleshooting |
 
 ---
 
-## Expected Repository Work
+## Weekly Lab
 
-Students should commit their work after each day.
-
-```bash
-git add .
-git commit -m "week-10: complete lab work"
-```
+Students will continuously improve a real production-style Terraform platform repository during the course.

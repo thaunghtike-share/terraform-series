@@ -1,51 +1,27 @@
 # Week 6 — OIDC & Modern IAM
 
-## Goal
+## Weekly Goal
 
-Remove static cloud credentials from CI/CD.
+Learn enterprise Terraform and platform engineering workflow for:
 
----
-
-## Real Enterprise Lab
-
-### Lab Name
-
-**Azure OIDC Authentication**
-
-### What Students Build
-
-- `Azure App Registration`
-- `Federated Credential`
-- `GitHub Actions OIDC Login`
-
-### Lab Tasks
-
-- Configure OIDC
-- Use azure/login
-- Configure Terraform auth env vars
-- Apply RBAC
-
-### Final Result
-
-Students will complete a real platform engineering style lab for **OIDC & Modern IAM**.
+- Production infrastructure
+- CI/CD automation
+- Secure authentication
+- Infrastructure standardization
+- Platform engineering mindset
 
 ---
 
 ## Weekly Schedule
 
-| Day | Topic | File |
-|---|---|---|
-| Day 1 | OIDC Fundamentals | `day-1.md` |
-| Day 2 | GitHub Actions + Azure OIDC | `day-2.md` |
-| Day 3 | RBAC & Permission Design | `day-3.md` |
+| Day | Topic |
+|---|---|
+| Day 1 | Core concepts and architecture |
+| Day 2 | Real hands-on implementation |
+| Day 3 | Enterprise workflow and troubleshooting |
 
 ---
 
-## Expected Repository Work
+## Weekly Lab
 
-Students should commit their work after each day.
-
-```bash
-git add .
-git commit -m "week-6: complete lab work"
-```
+Students will continuously improve a real production-style Terraform platform repository during the course.

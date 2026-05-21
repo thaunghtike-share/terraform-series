@@ -1,52 +1,27 @@
 # Week 3 — Reusable Terraform Modules
 
-## Goal
+## Weekly Goal
 
-Build a reusable infrastructure module library.
+Learn enterprise Terraform and platform engineering workflow for:
 
----
-
-## Real Enterprise Lab
-
-### Lab Name
-
-**Production Module Library**
-
-### What Students Build
-
-- `modules/resource_group`
-- `modules/vnet`
-- `modules/storage`
-- `modules/vm`
-
-### Lab Tasks
-
-- Build modules
-- Use inputs/outputs
-- Support dev/uat/prod
-- Apply shared naming and tagging
-
-### Final Result
-
-Students will complete a real platform engineering style lab for **Reusable Terraform Modules**.
+- Production infrastructure
+- CI/CD automation
+- Secure authentication
+- Infrastructure standardization
+- Platform engineering mindset
 
 ---
 
 ## Weekly Schedule
 
-| Day | Topic | File |
-|---|---|---|
-| Day 1 | Module Fundamentals | `day-1.md` |
-| Day 2 | Advanced Module Design | `day-2.md` |
-| Day 3 | Enterprise Module Workflow | `day-3.md` |
+| Day | Topic |
+|---|---|
+| Day 1 | Core concepts and architecture |
+| Day 2 | Real hands-on implementation |
+| Day 3 | Enterprise workflow and troubleshooting |
 
 ---
 
-## Expected Repository Work
+## Weekly Lab
 
-Students should commit their work after each day.
-
-```bash
-git add .
-git commit -m "week-3: complete lab work"
-```
+Students will continuously improve a real production-style Terraform platform repository during the course.
