@@ -14,30 +14,30 @@ This is NOT a beginner Terraform course.
 
 Students will learn how real Platform Engineers build and manage:
 
-* Enterprise Terraform Architecture
-* Remote State Infrastructure
-* Reusable Terraform Modules
-* GitHub Actions CI/CD
-* Azure OIDC Authentication
-* Terraform Cloud Workflows
-* terraform-docs Automation
-* Terragrunt Architecture
-* Atmos Platform Orchestration
-* Golden Path Infrastructure
-* Internal Developer Platform Concepts
+- Enterprise Terraform Architecture
+- Remote State Infrastructure
+- Reusable Terraform Modules
+- GitHub Actions CI/CD
+- Azure OIDC Authentication
+- Terraform Cloud Workflows
+- terraform-docs Automation
+- Terragrunt Architecture
+- Atmos Platform Orchestration
+- Golden Path Infrastructure
+- Internal Developer Platform Concepts
 
 ---
 
 # Technologies Used
 
-* Terraform
-* Azure
-* GitHub Actions
-* Azure OIDC
-* Terraform Cloud
-* terraform-docs
-* Terragrunt
-* Atmos
+- Terraform
+- Azure
+- GitHub Actions
+- Azure OIDC
+- Terraform Cloud
+- terraform-docs
+- Terragrunt
+- Atmos
 
 ---
 
@@ -65,6 +65,309 @@ terraform-platform/
 
 ---
 
+# Weekly Real Enterprise Labs
+
+Each week includes a dedicated enterprise-style hands-on lab.
+
+Students continuously improve the SAME production-style platform during the entire bootcamp.
+
+---
+
+# Week 1 Lab — Enterprise Foundation Infrastructure
+
+## Students Build
+
+```text
+00_resource_groups/
+01_networking/
+```
+
+## Tasks
+
+- Create Resource Groups
+- Create Virtual Networks
+- Create Subnets
+- Use variables and outputs
+- Separate dev and prod tfvars
+
+## Final Result
+
+```text
+Reusable Terraform foundation infrastructure
+```
+
+---
+
+# Week 2 Lab — Remote State Platform
+
+## Students Build
+
+```text
+Azure Blob Remote State Backend
+```
+
+## Tasks
+
+- Configure backend
+- Separate state per layer
+- Configure state locking
+- Use terraform_remote_state
+
+## Final Result
+
+```text
+Enterprise remote state architecture
+```
+
+---
+
+# Week 3 Lab — Reusable Terraform Modules
+
+## Students Build
+
+```text
+modules/
+├── resource_group
+├── vnet
+├── storage
+└── vm
+```
+
+## Tasks
+
+- Build reusable modules
+- Dynamic naming
+- Shared tagging
+- Multi-environment support
+
+## Final Result
+
+```text
+Production reusable module library
+```
+
+---
+
+# Week 4 Lab — Enterprise Repository Design
+
+## Students Build
+
+```text
+terraform-platform/
+├── environments/
+├── modules/
+└── layers/
+```
+
+## Tasks
+
+- Monorepo structure
+- Environment separation
+- Shared standards
+- Naming conventions
+
+## Final Result
+
+```text
+Production-ready Terraform repository
+```
+
+---
+
+# Week 5 Lab — Terraform CI/CD Pipeline
+
+## Students Build
+
+```yaml
+Terraform Validate
+Terraform Plan
+Terraform Apply
+```
+
+## Tasks
+
+- GitHub Actions workflow
+- Multi-environment deployment
+- workflow_dispatch
+- Layer-based deployment
+
+## Final Result
+
+```text
+Enterprise Terraform automation pipeline
+```
+
+---
+
+# Week 6 Lab — Azure OIDC Authentication
+
+## Students Build
+
+```text
+GitHub Actions + Azure OIDC Authentication
+```
+
+## Tasks
+
+- Azure App Registration
+- Federated Credentials
+- Secretless authentication
+- RBAC permissions
+
+## Final Result
+
+```text
+Modern secure Terraform authentication workflow
+```
+
+---
+
+# Week 7 Lab — Terraform Security Platform
+
+## Students Build
+
+```text
+Terraform Security Validation Pipeline
+```
+
+## Tasks
+
+- tfsec
+- checkov
+- tflint
+- Security scanning automation
+
+## Final Result
+
+```text
+Enterprise Terraform security pipeline
+```
+
+---
+
+# Week 8 Lab — Terraform Cloud Enterprise Workflow
+
+## Students Build
+
+```text
+Terraform Cloud Workspace Architecture
+```
+
+## Tasks
+
+- Workspace setup
+- Variable sets
+- Remote execution
+- Apply approvals
+
+## Final Result
+
+```text
+Enterprise Terraform Cloud operations workflow
+```
+
+---
+
+# Week 9 Lab — terraform-docs Automation
+
+## Students Build
+
+```yaml
+terraform-docs GitHub Actions Workflow
+```
+
+## Tasks
+
+- Auto-generate README
+- Inject vs replace
+- Documentation automation
+- Developer-friendly infrastructure docs
+
+## Final Result
+
+```text
+Production infrastructure documentation system
+```
+
+---
+
+# Week 10 Lab — Terragrunt Platform Architecture
+
+## Students Build
+
+```text
+terragrunt/
+├── dev
+├── uat
+└── prod
+```
+
+## Tasks
+
+- Shared configuration
+- Environment inheritance
+- DRY infrastructure
+- Multi-environment deployment
+
+## Final Result
+
+```text
+Enterprise Terragrunt platform architecture
+```
+
+---
+
+# Week 11 Lab — Atmos Platform Orchestration
+
+## Students Build
+
+```text
+atmos/
+├── stacks
+├── components
+└── catalogs
+```
+
+## Tasks
+
+- Stack orchestration
+- Shared components
+- Tenant environments
+- Platform engineering workflow
+
+## Final Result
+
+```text
+Modern platform orchestration workflow
+```
+
+---
+
+# Week 12 Lab — Final Enterprise Platform Project
+
+## Students Build
+
+```text
+✅ Multi-layer Terraform Architecture
+✅ Remote State Backend
+✅ Reusable Modules
+✅ GitHub Actions CI/CD
+✅ Azure OIDC Authentication
+✅ Terraform Cloud Integration
+✅ terraform-docs Automation
+✅ Terragrunt Structure
+✅ Atmos Orchestration
+✅ Enterprise Repository Structure
+```
+
+## Final Result
+
+```text
+Complete production-style platform engineering infrastructure
+```
+
+---
+
 # Week 1 — Terraform Foundations
 
 ## Goal
@@ -77,20 +380,20 @@ Understand real Terraform workflow and enterprise project structure.
 
 ### Topics
 
-* Infrastructure as Code
-* Terraform Workflow
-* Providers
-* Resources
-* Variables
-* Outputs
-* Terraform State
+- Infrastructure as Code
+- Terraform Workflow
+- Providers
+- Resources
+- Variables
+- Outputs
+- Terraform State
 
 ### Hands-on
 
-* Create Azure Resource Group
-* Create Storage Account
-* Create Virtual Network
-* Use Variables and Outputs
+- Create Azure Resource Group
+- Create Storage Account
+- Create Virtual Network
+- Use Variables and Outputs
 
 ### Real Lab
 
@@ -104,22 +407,22 @@ Deploy complete development environment foundation
 
 ### Topics
 
-* String
-* Number
-* Bool
-* List
-* Map
-* Object
-* Functions
-* Conditional Logic
-* for_each
-* count
+- String
+- Number
+- Bool
+- List
+- Map
+- Object
+- Functions
+- Conditional Logic
+- for_each
+- count
 
 ### Hands-on
 
-* Create multiple VNets dynamically
-* Dynamic subnet creation
-* Environment-based resource sizing
+- Create multiple VNets dynamically
+- Dynamic subnet creation
+- Environment-based resource sizing
 
 ### Real Lab
 
@@ -133,16 +436,16 @@ Single codebase for dev, uat and prod environments
 
 ### Topics
 
-* providers.tf
-* variables.tf
-* outputs.tf
-* locals.tf
-* versions.tf
-* terraform.tfvars
+- providers.tf
+- variables.tf
+- outputs.tf
+- locals.tf
+- versions.tf
+- terraform.tfvars
 
 ### Hands-on
 
-* Refactor messy code into enterprise structure
+- Refactor messy code into enterprise structure
 
 ### Real Lab
 
@@ -164,16 +467,16 @@ Learn enterprise state management.
 
 ### Topics
 
-* tfstate internals
-* Drift detection
-* State locking
-* Sensitive data risks
+- tfstate internals
+- Drift detection
+- State locking
+- Sensitive data risks
 
 ### Hands-on
 
-* Inspect tfstate
-* Import existing resource
-* Simulate infrastructure drift
+- Inspect tfstate
+- Import existing resource
+- Simulate infrastructure drift
 
 ### Real Lab
 
@@ -187,15 +490,15 @@ Recover broken infrastructure from state mismatch
 
 ### Topics
 
-* Azure Blob backend
-* Backend configuration
-* State locking
-* Environment isolation
+- Azure Blob backend
+- Backend configuration
+- State locking
+- Environment isolation
 
 ### Hands-on
 
-* Configure remote backend
-* Separate backend per layer
+- Configure remote backend
+- Separate backend per layer
 
 ### Real Lab
 
@@ -209,14 +512,14 @@ Move local infrastructure to enterprise remote state
 
 ### Topics
 
-* Layered architecture
-* Dependency management
-* terraform_remote_state
+- Layered architecture
+- Dependency management
+- terraform_remote_state
 
 ### Hands-on
 
-* Connect networking layer with compute layer
-* Connect storage layer with database layer
+- Connect networking layer with compute layer
+- Connect storage layer with database layer
 
 ### Real Lab
 
@@ -238,16 +541,16 @@ Build reusable infrastructure platforms.
 
 ### Topics
 
-* Root module
-* Child module
-* Inputs
-* Outputs
-* Module structure
+- Root module
+- Child module
+- Inputs
+- Outputs
+- Module structure
 
 ### Hands-on
 
-* Build reusable Resource Group module
-* Build reusable Storage module
+- Build reusable Resource Group module
+- Build reusable Storage module
 
 ### Real Lab
 
@@ -261,14 +564,14 @@ Create reusable infrastructure library
 
 ### Topics
 
-* Dynamic modules
-* Environment-based modules
-* Naming standards
+- Dynamic modules
+- Environment-based modules
+- Naming standards
 
 ### Hands-on
 
-* Reusable VNet module
-* Reusable VM module
+- Reusable VNet module
+- Reusable VM module
 
 ### Real Lab
 
@@ -282,13 +585,13 @@ One module supporting multiple environments
 
 ### Topics
 
-* Module versioning
-* Shared platform modules
-* Private module strategy
+- Module versioning
+- Shared platform modules
+- Private module strategy
 
 ### Hands-on
 
-* Shared organization module repository
+- Shared organization module repository
 
 ### Real Lab
 
@@ -310,13 +613,13 @@ Think like a Platform Engineer.
 
 ### Topics
 
-* Dev/UAT/Prod strategy
-* Naming standards
-* Folder strategy
+- Dev/UAT/Prod strategy
+- Naming standards
+- Folder strategy
 
 ### Hands-on
 
-* Build multi-environment platform
+- Build multi-environment platform
 
 ### Real Lab
 
@@ -330,14 +633,14 @@ Enterprise environment separation
 
 ### Topics
 
-* Tagging strategy
-* Naming conventions
-* Shared variables
-* Shared locals
+- Tagging strategy
+- Naming conventions
+- Shared variables
+- Shared locals
 
 ### Hands-on
 
-* Standardize all infrastructure resources
+- Standardize all infrastructure resources
 
 ### Real Lab
 
@@ -351,13 +654,13 @@ Enforce organization standards
 
 ### Topics
 
-* Monorepo
-* Multi repo
-* Layered repositories
+- Monorepo
+- Multi repo
+- Layered repositories
 
 ### Hands-on
 
-* Build enterprise repository structure
+- Build enterprise repository structure
 
 ### Real Lab
 
@@ -379,14 +682,14 @@ Automate infrastructure delivery.
 
 ### Topics
 
-* GitHub Actions
-* terraform fmt
-* validate
-* plan
+- GitHub Actions
+- terraform fmt
+- validate
+- plan
 
 ### Hands-on
 
-* CI validation workflow
+- CI validation workflow
 
 ### Real Lab
 
@@ -400,13 +703,13 @@ Automatic Terraform validation pipeline
 
 ### Topics
 
-* workflow_dispatch
-* Environment approvals
-* Production safety
+- workflow_dispatch
+- Environment approvals
+- Production safety
 
 ### Hands-on
 
-* Multi-environment apply workflow
+- Multi-environment apply workflow
 
 ### Real Lab
 
@@ -420,13 +723,13 @@ Production infrastructure deployment pipeline
 
 ### Topics
 
-* Secrets management
-* tfvars generation
-* Secure workflows
+- Secrets management
+- tfvars generation
+- Secure workflows
 
 ### Hands-on
 
-* Generate secure tfvars dynamically
+- Generate secure tfvars dynamically
 
 ### Real Lab
 
@@ -448,14 +751,14 @@ Eliminate static secrets.
 
 ### Topics
 
-* Modern identity management
-* Workload identity
-* Federated credentials
+- Modern identity management
+- Workload identity
+- Federated credentials
 
 ### Hands-on
 
-* Azure App Registration
-* Federated credential setup
+- Azure App Registration
+- Federated credential setup
 
 ### Real Lab
 
@@ -469,8 +772,8 @@ GitHub Actions login without secrets
 
 ### Hands-on
 
-* Configure azure/login
-* Configure Terraform OIDC authentication
+- Configure azure/login
+- Configure Terraform OIDC authentication
 
 ### Real Lab
 
@@ -484,14 +787,14 @@ Enterprise-grade Terraform authentication
 
 ### Topics
 
-* Least privilege
-* Storage Blob Data Contributor
-* Reader role
-* Scope strategy
+- Least privilege
+- Storage Blob Data Contributor
+- Reader role
+- Scope strategy
 
 ### Hands-on
 
-* Secure Terraform backend access
+- Secure Terraform backend access
 
 ### Real Lab
 
@@ -513,13 +816,13 @@ Build secure infrastructure pipelines.
 
 ### Topics
 
-* tfsec
-* checkov
-* tflint
+- tfsec
+- checkov
+- tflint
 
 ### Hands-on
 
-* Security scanning pipeline
+- Security scanning pipeline
 
 ### Real Lab
 
@@ -533,14 +836,14 @@ Detect insecure infrastructure automatically
 
 ### Topics
 
-* Prevent public exposure
-* Security standards
-* Policy validation
+- Prevent public exposure
+- Security standards
+- Policy validation
 
 ### Hands-on
 
-* Secure storage accounts
-* Secure networking rules
+- Secure storage accounts
+- Secure networking rules
 
 ### Real Lab
 
@@ -554,9 +857,9 @@ Enterprise security enforcement
 
 ### Hands-on
 
-* State recovery
-* Lock issues
-* Broken dependencies
+- State recovery
+- Lock issues
+- Broken dependencies
 
 ### Real Lab
 
@@ -578,8 +881,8 @@ Learn enterprise Terraform operations.
 
 ### Hands-on
 
-* Create workspace
-* Connect GitHub repository
+- Create workspace
+- Connect GitHub repository
 
 ### Real Lab
 
@@ -593,13 +896,13 @@ Remote execution workflow
 
 ### Topics
 
-* Workspace design
-* Variable sets
-* RBAC
+- Workspace design
+- Variable sets
+- RBAC
 
 ### Hands-on
 
-* Multi-team infrastructure workflow
+- Multi-team infrastructure workflow
 
 ### Real Lab
 
@@ -613,9 +916,9 @@ Shared infrastructure operations
 
 ### Hands-on
 
-* VCS integration
-* Remote plans
-* Apply approvals
+- VCS integration
+- Remote plans
+- Apply approvals
 
 ### Real Lab
 
@@ -637,8 +940,8 @@ Improve platform usability.
 
 ### Hands-on
 
-* Generate README automatically
-* Inject vs replace
+- Generate README automatically
+- Inject vs replace
 
 ### Real Lab
 
@@ -652,7 +955,7 @@ Enterprise Terraform documentation
 
 ### Hands-on
 
-* terraform-docs GitHub Actions workflow
+- terraform-docs GitHub Actions workflow
 
 ### Real Lab
 
@@ -666,9 +969,9 @@ Auto-update infrastructure documentation
 
 ### Topics
 
-* Platform usability
-* Infrastructure templates
-* Self-service concepts
+- Platform usability
+- Infrastructure templates
+- Self-service concepts
 
 ### Real Lab
 
@@ -690,7 +993,7 @@ Manage large infrastructure efficiently.
 
 ### Hands-on
 
-* Convert Terraform repo to Terragrunt
+- Convert Terraform repo to Terragrunt
 
 ### Real Lab
 
@@ -704,8 +1007,8 @@ Reduce duplicated infrastructure code
 
 ### Hands-on
 
-* Shared configurations
-* Environment inheritance
+- Shared configurations
+- Environment inheritance
 
 ### Real Lab
 
@@ -719,7 +1022,7 @@ Centralized platform configuration
 
 ### Hands-on
 
-* Multi-environment Terragrunt deployment
+- Multi-environment Terragrunt deployment
 
 ### Real Lab
 
@@ -741,7 +1044,7 @@ Modern platform orchestration.
 
 ### Hands-on
 
-* Atmos stack configuration
+- Atmos stack configuration
 
 ### Real Lab
 
@@ -755,8 +1058,8 @@ Centralized infrastructure orchestration
 
 ### Hands-on
 
-* Shared platform components
-* Tenant environments
+- Shared platform components
+- Tenant environments
 
 ### Real Lab
 
@@ -770,13 +1073,13 @@ Platform engineering infrastructure model
 
 ### Topics
 
-* Internal Developer Platform
-* Golden path concept
-* Self-service infrastructure
+- Internal Developer Platform
+- Golden path concept
+- Self-service infrastructure
 
 ### Hands-on
 
-* Standardized environment templates
+- Standardized environment templates
 
 ### Real Lab
 
@@ -812,34 +1115,35 @@ Students build complete enterprise infrastructure platform:
 
 After completing this program, students will understand:
 
-* Enterprise Terraform Workflow
-* Platform Engineering Concepts
-* Infrastructure Automation
-* Secure CI/CD Pipelines
-* OIDC Authentication
-* Infrastructure at Scale
-* Golden Path Engineering
-* Internal Developer Platform Design
+- Enterprise Terraform Workflow
+- Platform Engineering Concepts
+- Infrastructure Automation
+- Secure CI/CD Pipelines
+- OIDC Authentication
+- Infrastructure at Scale
+- Golden Path Engineering
+- Internal Developer Platform Design
 
 ---
 
 # Recommended Student Requirements
 
-* Basic Linux Knowledge
-* Basic Git Knowledge
-* Basic Terraform Knowledge
-* Azure Account
-* GitHub Account
+- Basic Linux Knowledge
+- Basic Git Knowledge
+- Basic Terraform Knowledge
+- Azure Account
+- GitHub Account
 
 ---
 
 # Teaching Style
 
-✅ Real World Labs
-✅ Production Style Infrastructure
-✅ Enterprise Repository Structure
-✅ CI/CD Automation
-✅ Troubleshooting Sessions
-✅ Platform Engineering Mindset
-✅ Real Production Workflow
+✅ Real World Labs  
+✅ Production Style Infrastructure  
+✅ Enterprise Repository Structure  
+✅ CI/CD Automation  
+✅ Troubleshooting Sessions  
+✅ Platform Engineering Mindset  
+✅ Real Production Workflow  
 ✅ Infrastructure Design Thinking
+
