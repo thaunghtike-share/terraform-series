@@ -1,4 +1,6 @@
-# ![Terraform](https://raw.githubusercontent.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp-3f10732f.svg) Advanced Terraform & Platform Engineering Bootcamp
+# Advanced Terraform & Platform Engineering Bootcamp
+
+[![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
 
 ## 12 Weeks — Real Enterprise Hands-on Training
 
